@@ -44,8 +44,8 @@ release:
 	@sh -c "'$(CURDIR)/scripts/release.sh'"
 
 vendor:
-	govendor update github.com/paranoidd/teamcity-sdk-go/teamcity
-	govendor update github.com/paranoidd/teamcity-sdk-go/types
+	govendor update github.com/bestseller-ecom/teamcity-sdk-go/teamcity
+	govendor update github.com/bestseller-ecom/teamcity-sdk-go/types
 
 vendor-status:
 	@govendor status

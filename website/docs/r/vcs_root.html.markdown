@@ -18,7 +18,7 @@ resource "teamcity_vcs_root" "default" {
   name = "default-vcs"
 
   properties = {
-    url    = "https://github.com/paranoidd/teamcity-sdk-go"
+    url    = "https://github.com/bestseller-ecom/teamcity-sdk-go"
     branch = "refs/heads/master"
   }
 }

@@ -26,12 +26,12 @@ IMPROVEMENTS:
 ## 0.1.8 (March 12, 2019)
 
 BUG FIXES:
-- Renaming of Teamcity Project without ForceNew  ([#25](https://github.com/paranoidd/terraform-provider-teamcity/issues/25))
+- Renaming of Teamcity Project without ForceNew  ([#25](https://github.com/bestseller-ecom/terraform-provider-teamcity/issues/25))
 
 ## 0.1.7 (September 4, 2018)
 
 BUG FIXES:
-- Suppress diff due to trailing line returns ([#22](https://github.com/paranoidd/terraform-provider-teamcity/issues/22))
+- Suppress diff due to trailing line returns ([#22](https://github.com/bestseller-ecom/terraform-provider-teamcity/issues/22))
 
 ## 0.1.6
 
@@ -44,7 +44,7 @@ BUG FIXES:
 ## 0.1.5 (January 16, 2018)
 
 BUG FIXES:
-- underlying go provider had a typo for buildTypes creation ([Seen Here](https://github.com/paranoidd/teamcity-sdk-go/commit/ce1da1a5348c3e788e980cea37b9b588a68c2036))
+- underlying go provider had a typo for buildTypes creation ([Seen Here](https://github.com/bestseller-ecom/teamcity-sdk-go/commit/ce1da1a5348c3e788e980cea37b9b588a68c2036))
 
 ## 0.1.4 (December 21, 2017)
 
@@ -56,12 +56,12 @@ BACKWARDS INCOMPATIBILITIES / NOTES:
 FEATURES:
 
 BUG FIXES / IMPROVEMENTS:
-- API has been pinned to `10.0` because of build template api changes ([#16](https://github.com/paranoidd/terraform-provider-teamcity/issues/16))
+- API has been pinned to `10.0` because of build template api changes ([#16](https://github.com/bestseller-ecom/terraform-provider-teamcity/issues/16))
 
 ## 0.1.3 (December 6, 2017)
 
 IMPROVEMENTS:
-- **Resource:**  `parameter` Now Supports display types ([#12](https://github.com/paranoidd/terraform-provider-teamcity/pull/12]))
+- **Resource:**  `parameter` Now Supports display types ([#12](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/12]))
 
 ## 0.1.2 (November 20, 2017)
 
@@ -71,11 +71,11 @@ BACKWARDS INCOMPATIBILITIES / NOTES:
 
 FEATURES:
 
-- **Datasource:**  `agent_pool` ([#11](https://github.com/paranoidd/terraform-provider-teamcity/pull/11]))
+- **Datasource:**  `agent_pool` ([#11](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/11]))
 
 BUG FIXES / IMPROVEMENTS:
 
-- **Resource:**  `agent_pool_project_attachment` ([#10](https://github.com/paranoidd/terraform-provider-teamcity/pull/10]))
+- **Resource:**  `agent_pool_project_attachment` ([#10](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/10]))
   - Now uses id for `pool` not name
 
 
@@ -85,19 +85,19 @@ BACKWARDS INCOMPATIBILITIES / NOTES:
 
 FEATURES:
 
-- **Resource:**  `agent_pool_project_attachment` ([#10](https://github.com/paranoidd/terraform-provider-teamcity/pull/10]))
+- **Resource:**  `agent_pool_project_attachment` ([#10](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/10]))
 
 IMPROVEMENTS:
 
-- **Resource:**  `build_configuration` and `build_template` Now support Settings ([#6](https://github.com/paranoidd/terraform-provider-teamcity/pull/6]))
-- **Resource**: `vcs_root` Now support Propeties on Read ([#5](https://github.com/paranoidd/terraform-provider-teamcity/pull/5]))
-- `parameter` Now supports `read_only = true/false` ([#7](https://github.com/paranoidd/terraform-provider-teamcity/pull/7]))
-- `Step` Now ignores the constant `teamcity.step.mode` on read ([#8](https://github.com/paranoidd/terraform-provider-teamcity/pull/8/))
+- **Resource:**  `build_configuration` and `build_template` Now support Settings ([#6](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/6]))
+- **Resource**: `vcs_root` Now support Propeties on Read ([#5](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/5]))
+- `parameter` Now supports `read_only = true/false` ([#7](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/7]))
+- `Step` Now ignores the constant `teamcity.step.mode` on read ([#8](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/8/))
 
 BUG FIXES:
 
-- `parameter` and `parameter_value`replaces single element not all elements ([#9](https://github.com/paranoidd/terraform-provider-teamcity/pull/9/))
-- Project Root is not defined in TF breaking compare ([#4](https://github.com/paranoidd/terraform-provider-teamcity/pull/4]))
+- `parameter` and `parameter_value`replaces single element not all elements ([#9](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/9/))
+- Project Root is not defined in TF breaking compare ([#4](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/4]))
 
 ## 0.1.0 (October 19, 2017)
 
@@ -105,7 +105,7 @@ BACKWARDS INCOMPATIBILITIES / NOTES:
 
 FEATURES:
 
-* **New Resource**: `vcs_root` ([#1](https://github.com/paranoidd/terraform-provider-teamcity/pull/1]))
+* **New Resource**: `vcs_root` ([#1](https://github.com/bestseller-ecom/terraform-provider-teamcity/pull/1]))
 
 IMPROVEMENTS:
 

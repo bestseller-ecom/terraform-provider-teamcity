@@ -31,7 +31,7 @@ provider "teamcity" {
 
 ## Requirements
 
-Compatibility is defined by [teamcity-go-sdk](https://github.com/paranoidd/teamcity-go-sdk) which bundled with this provider.
+Compatibility is defined by [teamcity-go-sdk](https://github.com/bestseller-ecom/teamcity-go-sdk) which bundled with this provider.
 
 -	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
 -	[Go](https://golang.org/doc/install) 1.9 (to build the provider plugin)

@@ -6,7 +6,7 @@ Requirements
 
 -	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
   -[Go](https://golang.org/doc/install) 1.9 (to build the provider plugin)
-  -[teamcity-sdk-go](https://github.com/paranoidd/teamcity-sdk-go) (SDK dependency for building the provider)
+  -[teamcity-sdk-go](https://github.com/bestseller-ecom/teamcity-sdk-go) (SDK dependency for building the provider)
 
 
 Documentation
@@ -56,7 +56,7 @@ $ make test
 In order to run the full suite of Acceptance tests, run `make testacc`.
 
 *Note:* Acceptance tests create real resources and require the Docker container to be running.
-  Currently we use [teamcity-dsk-go](https://github.com/paranoidd/teamcity-sdk-go) as the repository to start the TeamCity container
+  Currently we use [teamcity-dsk-go](https://github.com/bestseller-ecom/teamcity-sdk-go) as the repository to start the TeamCity container
 
 ```sh
 $ make testacc

@@ -5,7 +5,7 @@ import (
 	"github.com/hashicorp/terraform/helper/hashcode"
 	"github.com/hashicorp/terraform/helper/resource"
 
-	"github.com/paranoidd/teamcity-sdk-go/types"
+	"github.com/bestseller-ecom/teamcity-sdk-go/types"
 )
 
 func testAccCheckParameter(name, paramName string, ps types.ParameterSpec) resource.TestCheckFunc {

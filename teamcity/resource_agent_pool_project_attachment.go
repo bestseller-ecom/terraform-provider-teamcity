@@ -1,9 +1,9 @@
 package teamcity
 
 import (
+	"github.com/bestseller-ecom/teamcity-sdk-go/teamcity"
+	"github.com/bestseller-ecom/teamcity-sdk-go/types"
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/paranoidd/teamcity-sdk-go/teamcity"
-	"github.com/paranoidd/teamcity-sdk-go/types"
 
 	"fmt"
 	"log"

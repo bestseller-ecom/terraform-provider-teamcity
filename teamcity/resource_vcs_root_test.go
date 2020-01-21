@@ -15,8 +15,8 @@ import (
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/terraform"
 
-	"github.com/paranoidd/teamcity-sdk-go/teamcity"
-	"github.com/paranoidd/teamcity-sdk-go/types"
+	"github.com/bestseller-ecom/teamcity-sdk-go/teamcity"
+	"github.com/bestseller-ecom/teamcity-sdk-go/types"
 )
 
 var testAccVcsRoot = `
@@ -25,7 +25,7 @@ resource "teamcity_vcs_root" "bar" {
   name = "bar"
 
   properties = {
-    url    = "https://github.com/paranoidd/teamcity-sdk-go"
+    url    = "https://github.com/bestseller-ecom/teamcity-sdk-go"
     branch = "refs/heads/master"
   }
 }`

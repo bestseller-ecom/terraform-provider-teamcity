@@ -3,7 +3,7 @@ package teamcity
 import (
 	"errors"
 
-	"github.com/paranoidd/teamcity-sdk-go/teamcity"
+	"github.com/bestseller-ecom/teamcity-sdk-go/teamcity"
 	// "os"
 )
 
